@@ -1,0 +1,9 @@
+# Train and validation image paths
+train: /Users/yashraj/sem7/capstone/Real-Time-Detection-of-Helmet-Violations-and-Capturing-Bike-Numbers-from-Number-Plates-main/datasets/train/images
+val: /Users/yashraj/sem7/capstone/Real-Time-Detection-of-Helmet-Violations-and-Capturing-Bike-Numbers-from-Number-Plates-main/datasets/val/images
+
+# Number of classes
+nc: 4
+
+# Class names (must match your model labels)
+names: ['with helmet', 'without helmet', 'rider', 'number plate']

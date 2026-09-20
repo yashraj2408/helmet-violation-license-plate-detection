@@ -1,0 +1,22 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Web App uploads (keep directory with .gitkeep)
+helmet_plate_app/static/uploads/*
+!helmet_plate_app/static/uploads/.gitkeep
+
+# Logs & temp files
+*.log
