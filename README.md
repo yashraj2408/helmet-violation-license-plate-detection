@@ -1,6 +1,7 @@
 # 🏍️ Real-Time Motorcycle Helmet Violation & Automatic Number Plate Recognition (ANPR)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Cloud%20Live-FF4B4B.svg?logo=streamlit)](https://share.streamlit.io/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://github.com/ultralytics/ultralytics)
 [![Flask](https://img.shields.io/badge/Flask-Web%20App-black.svg?logo=flask)](https://palletsprojects.com/p/flask/)
 [![EasyOCR](https://img.shields.io/badge/OCR-EasyOCR%20%2F%20PaddleOCR-green.svg)](https://github.com/JaidedAI/EasyOCR)

@@ -10,8 +10,9 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Load YOLOv8 model
-model = YOLO("model/best.pt")
+# Load YOLOv8 model (fallback to yolov8n if best.pt not present)
+model_path = "model/best.pt" if os.path.exists("model/best.pt") else "yolov8n.pt"
+model = YOLO(model_path)
 
 # Initialize OCR reader
 reader = easyocr.Reader(['en'])
